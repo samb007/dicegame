@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url('img/lake-of-fire.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.wrapper{
+    border-style: solid;
+    border-width: medium;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 50%;
+    align-items: center;
+    background-color: firebrick;
+    min-height: 600px;
+    justify-content: space-between;
+    
+}
+.total, .new {
+
+    text-align: center;
+
+}
+img{
+    /* display: none; */
+    visibility: hidden;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    background-color: aliceblue;
+}
